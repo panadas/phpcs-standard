@@ -1,0 +1,21 @@
+{
+    "name": "panadas/phpcs-standard",
+    "description": "PHP_CodeSniffer standards.",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Pancutt",
+            "email": "adam@panadas.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "squizlabs/php_codesniffer": "~1.5.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
