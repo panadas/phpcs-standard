@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Panadas">
+
+    <description>Based on PSR-2 with additional enforcement of camelCaps in variable names.</description>
+
+    <rule ref="PSR2"/>
+
+</ruleset>
