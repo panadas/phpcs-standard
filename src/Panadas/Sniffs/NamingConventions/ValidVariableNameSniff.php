@@ -46,7 +46,6 @@ class Panadas_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSn
         $this->validate($phpcsFile, $stackPtr, ltrim($content, "$"));
     }
 
-
     /**
      * @param PHP_CodeSniffer_File $phpcsFile
      * @param integer              $stackPtr
@@ -56,7 +55,6 @@ class Panadas_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSn
         $content = $phpcsFile->getTokens()[$stackPtr]["content"];
         $this->validate($phpcsFile, $stackPtr, ltrim($content, "$"));
     }
-
 
     /**
      * @param PHP_CodeSniffer_File $phpcsFile
